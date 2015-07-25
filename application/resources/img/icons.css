@@ -1,9 +1,9 @@
 .icons{ background:url("icons.png") top left no-repeat; }
-.icons-zhusu{ width:80px; height:80px; background-position:-10px -10px; }
-.icons-qita{ width:80px; height:80px; background-position:-10px -100px; }
-.icons-gouwu{ width:79px; height:80px; background-position:-10px -190px; }
-.icons-yinshi{ width:80px; height:80px; background-position:-10px -280px; }
-.icons-yifu{ width:80px; height:80px; background-position:-10px -370px; }
-.icons-shouru{ width:80px; height:80px; background-position:-10px -460px; }
-.icons-jiaoton{ width:79px; height:79px; background-position:-10px -550px; }
+.zhusu{ width:80px; height:80px; background-position:-50px -50px; }
+.qita{ width:80px; height:80px; background-position:-50px -180px; }
+.gouwu{ width:79px; height:80px; background-position:-50px -310px; }
+.yishi{ width:80px; height:80px; background-position:-50px -440px; }
+.yifu{ width:80px; height:80px; background-position:-50px -570px; }
+.shouru{ width:80px; height:80px; background-position:-50px -700px; }
+.jiaotong{ width:79px; height:79px; background-position:-50px -830px; }
 

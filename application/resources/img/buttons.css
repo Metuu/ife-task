@@ -1,7 +1,7 @@
-.buttons{ background:url("buttons.png") top left no-repeat; }
-.删除{ width:63px; height:68px; background-position:-10px -10px; }
-.编辑2{ width:65px; height:66px; background-position:-10px -88px; }
-.编辑{ width:55px; height:55px; background-position:-10px -164px; }
-.目录{ width:55px; height:44px; background-position:-10px -229px; }
-.关闭{ width:42px; height:42px; background-position:-10px -283px; }
+.mob_yangfan_task1_02{ background:url("buttons.png") top left no-repeat; }
+.shanchu{ width:63px; height:68px; background-position:-50px -50px; }
+.bianji da{ width:65px; height:66px; background-position:-50px -168px; }
+.bianji xiao{ width:55px; height:55px; background-position:-50px -284px; }
+.caidan{ width:55px; height:44px; background-position:-50px -389px; }
+.guanbi{ width:42px; height:42px; background-position:-50px -483px; }
 

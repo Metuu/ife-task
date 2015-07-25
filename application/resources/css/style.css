@@ -1,14 +1,24 @@
-html, body {
+html {
     width: 100%;
     height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
 }
 body {
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 .container {
     position: relative;
-    width: 600px;
-    height: 100%;
+    width: 752px;
+    height: 1336px;
     margin: 10px auto;
     border: 1px solid #e23343;
 }
@@ -19,7 +29,7 @@ body {
     left: 0;
     z-index: 100;
     width: 100%;
-    height: 88px;
+    height: 90px;
     line-height: 88px;
     background: #8DD398;
     border-top: 1px solid #B2B2B2;
@@ -31,19 +41,19 @@ body {
 }
 .navigation .btn {
     position: absolute;
-    left: 37px;
+    left: 30px;
     top: 26px;
     width:55px;
     height:44px;
-    background: url(../img/buttons.png) -10px -229px no-repeat;
+    background: url(../img/buttons.png) -50px -389px no-repeat;
 }
 .navigation .addNew {
     position: absolute;
-    right: 32px;
+    right: 30px;
     top: 17px;
     width:55px;
     height:55px;
-    background:url(../img/buttons.png) -10px -164px no-repeat;
+    background:url(../img/buttons.png) -50px -284px no-repeat;
 }
 /* E navigation */
 /* S main */
@@ -55,15 +65,68 @@ body {
 }
 .main li {
     width: 100%;
-    height: 122px;
-    border-bottom: 1px solid #D3D4D3;
+    height: 135px;
+    border-bottom: 1px dashed #D3D4D3;
 }
-.main li touchMove {
+.main li .touchMove {
     width: 100%;
     height: 100%;
 }
+.touchMove .item {
+    float: left;
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    line-height: 135px;
+}
+.touchMove .item .itemIcon {
+    float: left;
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+    background:url("../img/icons.png") top left no-repeat;
+}
+.touchMove .item .itemIcon-shouru {
+    background-position:-50px -700px;
+}
+.touchMove .item .itemType {
+    color: #646464;
+    margin-left: 40px;
+}
+.touchMove .item .amount {
+    color: #7FD2A9;
+    margin-left: 40px;
+}
+.touchMove .item .date {
+    color: #AFAFAF;
+    font-size: 16px;
+    line-height: 1;
+    float: right;
+    margin-top: 30px;
+    margin-right: 32px;
+}
 
-
+.touchMove .red {
+    float: right;
+    width: 270px;
+    height: 100%;
+    margin-right: -270px;
+    background-color: #D74C3D;
+}
+.touchMove .red span {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.touchMove .red span.edit {
+    background:url("../img/buttons.png") -15px -130px no-repeat;
+}
+.touchMove .red span.del {
+    background:url("../img/buttons.png") -15px -12px no-repeat;
+}
 
 
 
